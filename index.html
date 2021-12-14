@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Generate Quote</title>
+    <style>
+      body {
+        background-color: darkgray;
+        display: flex;
+        flex-direction: column;
+      }
+      h1 {
+        text-align: center;
+        padding: 2em 0;
+        margin: 0 auto;
+      }
+      div {
+        text-align: center;
+        margin: 0 auto;
+        font-size: 3em;
+        min-height: 15rem;
+        padding: 0em 2em;
+      }
+
+      button {
+        text-align: center;
+        padding: 1.5em;
+        font-size: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Quote Generater</h1>
+    <div id="quoteDisplay">
+      <!-- Quotes will display here -->
+    </div>
+    <button onclick="newQuote()">New Quote</button>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
